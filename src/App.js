@@ -5,7 +5,7 @@ import LoginPage from './pages/LoginPage'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tienda">
       <main>
         <Route path="/" component={HomePage} exact />
       </main>
