@@ -14,12 +14,6 @@ const Header = () => {
     dispatch(logout())
   }
 
-  useEffect(() => {
-    console.log('nice');
-    console.log("userinfo: ", userInfo)
-    console.log("userregister: ", userReg)
-  }, [userInfo, userReg])
-
   return (
     <div className='header'>
       <div className='ident'>
