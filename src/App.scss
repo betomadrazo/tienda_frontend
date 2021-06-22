@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@300&display=swap');
+$font-primary: Arial, sans-serif;
+$title-text: 'Oswald', sans-serif;
+$body-text: 'Quicksand', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 125%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $body-text;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: #efefef;
+}
+
+@import "styles/login";
+@import "styles/header";

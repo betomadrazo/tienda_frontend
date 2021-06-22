@@ -1,0 +1,46 @@
+.login {
+  margin: 3rem auto;
+  display: grid;
+  place-content: center;
+  
+  form {
+    border: 1px solid;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+    width: 600px;
+    border-radius: .3rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  &__form-group {
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    font-family: $title-text;
+    align-self: left;
+  }
+
+  &__input {
+    padding: .5rem;
+    width: 100%;
+    border-radius: .2rem;
+    outline: none;
+    border: thin solid;
+  }
+
+  button {
+    padding: .5rem;
+    width: 200px;
+  }
+
+  &--error {
+    color: red;
+    font-weight: bold;
+  }
+}
