@@ -24,8 +24,8 @@ const Header = () => {
       <div className='header__menu'>
         <ul>
           <li>
-            <a href="/usuario">Mis artículos</a>
-            <a href="/crear_articulo">Agregar artículo</a>
+            <Link to="/usuario">Mis artículos</Link>
+            <Link to="/crear_articulo">Agregar artículo</Link>
           </li>
         </ul>
       </div>
