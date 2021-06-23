@@ -16,7 +16,7 @@ function RegisterPage({ location, history }) {
   const dispatch = useDispatch()
 
   const userRegister = useSelector((state) => state.userRegister)
-  const { loading, error, userInfo } = userRegister
+  const { error, userInfo } = userRegister
 
   const onSubmit = async (values) => {
     dispatch(register(values.nombre, values.correo, values.contraseña))

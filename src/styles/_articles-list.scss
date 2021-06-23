@@ -1,0 +1,5 @@
+.articles-list {
+  display: grid;
+  grid-template-columns: repeat(3 , 30%);
+  justify-content: center;
+}

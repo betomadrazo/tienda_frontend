@@ -23,7 +23,10 @@ const Header = () => {
       </div>
       <div className='header__menu'>
         <ul>
-          <li></li>
+          <li>
+            <a href="/usuario">Mis artículos</a>
+            <a href="/crear_articulo">Agregar artículo</a>
+          </li>
         </ul>
       </div>
       <div className='header__user-account'>

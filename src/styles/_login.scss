@@ -34,13 +34,71 @@
     border: thin solid;
   }
 
+  &__textarea {
+    width: 100%;
+    resize: none;
+    height: 5rem;
+    padding: .5rem;
+  }
+
   button {
     padding: .5rem;
     width: 200px;
+    margin-top: 1rem;
+    cursor: pointer;
   }
 
   &--error {
     color: red;
     font-weight: bold;
   }
+}
+
+
+.login {
+  &__upload-area {
+    border: 2px dashed #dedede;
+    background-color: #fefefe;
+    height: 200px;
+  }
+
+  &__image-zone {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__instructions-area {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__image-area {
+
+    height: 200px;
+  }
+
+
+  ///////////////////////////
+  &__photo-link {
+    font-weight: bold;
+    border: 1px solid;
+    background-color: #bd1234;
+    border-radius: 5px;
+    color: #fff;
+    padding: .75rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+    max-width: 5rem;
+    &:hover {
+      background-color: #880f27;
+    }
+  }
+
 }

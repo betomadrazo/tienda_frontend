@@ -15,7 +15,7 @@ function LoginPage({ location, history }) {
   const dispatch = useDispatch()
 
   const userLogin = useSelector(state => state.userLogin)
-  const { loading, error, userInfo } = userLogin
+  const { error, userInfo } = userLogin
 
   const onSubmit = async (values) => {
     dispatch(login(values.nombre, values.contraseña))

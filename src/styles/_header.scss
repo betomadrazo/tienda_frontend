@@ -8,10 +8,17 @@
       li {
         display: inline-block;
         zoom: 1;
-        cursor: pointer;
+
         
-        &:not(:last-of-type) {
-          padding-right: 3rem;
+        
+        & > a {
+          cursor: pointer;
+          color: #fff;
+          text-decoration: none;
+
+          &:not(:last-of-type) {
+            padding-right: 3rem;
+          }
         }
       }
     }

@@ -1,0 +1,33 @@
+.article {
+  display: grid;
+  place-content:center;
+  padding: 2rem;
+  background-color: #eee;
+  position: relative;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #eee;
+    margin: auto
+  }
+
+  &__price {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  &__update-delete {
+    border: 1px solid green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    button {
+      padding: .5rem;
+      cursor: pointer;
+      margin: .5rem
+    }
+  }
+}
